@@ -1,0 +1,5 @@
+// reac file from cluster
+hdfs dfs -ls -h /user/itv000592 
+
+//move file to hdfs
+hadoop fs -copyFromLocal /home/itv000592/orders.csv /user/itv000592
